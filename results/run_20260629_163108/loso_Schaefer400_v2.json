@@ -1,0 +1,508 @@
+{
+    "mode": "leave_one_site_out",
+    "atlas": "Schaefer400",
+    "fc_version": "v2",
+    "per_site": [
+        {
+            "auc": 0.5,
+            "accuracy": 0.4,
+            "balanced_accuracy": 0.41666666666666663,
+            "f1": 0.4,
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "specificity": 0.3333333333333333,
+            "threshold": 0.5242563486099243,
+            "confusion_matrix": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    1
+                ]
+            ],
+            "infer_time_sec": 0.05789756774902344,
+            "infer_ms_per_sample": 11.579513549804688,
+            "n_eval": 5,
+            "train_time_sec": 992.3554677963257,
+            "epochs_run": 21,
+            "n_params": 68610,
+            "test_site": "CMU"
+        },
+        {
+            "auc": 0.7865497076023392,
+            "accuracy": 0.7297297297297297,
+            "balanced_accuracy": 0.7309941520467836,
+            "f1": 0.7368421052631577,
+            "precision": 0.7,
+            "recall": 0.7777777777777778,
+            "specificity": 0.6842105263157895,
+            "threshold": 0.28631043434143066,
+            "confusion_matrix": [
+                [
+                    13,
+                    6
+                ],
+                [
+                    4,
+                    14
+                ]
+            ],
+            "infer_time_sec": 0.5013861656188965,
+            "infer_ms_per_sample": 13.550977449159365,
+            "n_eval": 37,
+            "train_time_sec": 1208.4459433555603,
+            "epochs_run": 26,
+            "n_params": 68610,
+            "test_site": "Caltech"
+        },
+        {
+            "auc": 0.7777777777777778,
+            "accuracy": 0.5897435897435898,
+            "balanced_accuracy": 0.6805555555555556,
+            "f1": 0.6,
+            "precision": 0.9230769230769231,
+            "recall": 0.4444444444444444,
+            "specificity": 0.9166666666666666,
+            "threshold": 0.28806859254837036,
+            "confusion_matrix": [
+                [
+                    11,
+                    1
+                ],
+                [
+                    15,
+                    12
+                ]
+            ],
+            "infer_time_sec": 0.5270359516143799,
+            "infer_ms_per_sample": 13.513742349086664,
+            "n_eval": 39,
+            "train_time_sec": 2239.861015319824,
+            "epochs_run": 48,
+            "n_params": 68610,
+            "test_site": "KKI"
+        },
+        {
+            "auc": 0.7843137254901961,
+            "accuracy": 0.6721311475409836,
+            "balanced_accuracy": 0.6372549019607843,
+            "f1": 0.7619047619047621,
+            "precision": 0.64,
+            "recall": 0.9411764705882353,
+            "specificity": 0.3333333333333333,
+            "threshold": 0.4249095618724823,
+            "confusion_matrix": [
+                [
+                    9,
+                    18
+                ],
+                [
+                    2,
+                    32
+                ]
+            ],
+            "infer_time_sec": 0.8571131229400635,
+            "infer_ms_per_sample": 14.051034802296122,
+            "n_eval": 61,
+            "train_time_sec": 1128.7290573120117,
+            "epochs_run": 24,
+            "n_params": 68610,
+            "test_site": "Leuven"
+        },
+        {
+            "auc": 0.6365740740740741,
+            "accuracy": 0.5476190476190477,
+            "balanced_accuracy": 0.5694444444444444,
+            "f1": 0.5128205128205129,
+            "precision": 0.6666666666666666,
+            "recall": 0.4166666666666667,
+            "specificity": 0.7222222222222222,
+            "threshold": 0.8060497641563416,
+            "confusion_matrix": [
+                [
+                    13,
+                    5
+                ],
+                [
+                    14,
+                    10
+                ]
+            ],
+            "infer_time_sec": 0.5673606395721436,
+            "infer_ms_per_sample": 13.508586656479608,
+            "n_eval": 42,
+            "train_time_sec": 3090.0225846767426,
+            "epochs_run": 66,
+            "n_params": 68610,
+            "test_site": "MaxMun"
+        },
+        {
+            "auc": 0.7313391109868606,
+            "accuracy": 0.6549707602339181,
+            "balanced_accuracy": 0.6640341067934024,
+            "f1": 0.6666666666666667,
+            "precision": 0.7468354430379747,
+            "recall": 0.6020408163265306,
+            "specificity": 0.726027397260274,
+            "threshold": 0.9621317386627197,
+            "confusion_matrix": [
+                [
+                    53,
+                    20
+                ],
+                [
+                    39,
+                    59
+                ]
+            ],
+            "infer_time_sec": 2.264190435409546,
+            "infer_ms_per_sample": 13.24087973923711,
+            "n_eval": 171,
+            "train_time_sec": 1944.3641867637634,
+            "epochs_run": 44,
+            "n_params": 68610,
+            "test_site": "NYU"
+        },
+        {
+            "auc": 0.7196969696969697,
+            "accuracy": 0.6521739130434783,
+            "balanced_accuracy": 0.6515151515151515,
+            "f1": 0.6363636363636364,
+            "precision": 0.6363636363636364,
+            "recall": 0.6363636363636364,
+            "specificity": 0.6666666666666666,
+            "threshold": 0.10022798180580139,
+            "confusion_matrix": [
+                [
+                    8,
+                    4
+                ],
+                [
+                    4,
+                    7
+                ]
+            ],
+            "infer_time_sec": 0.2906222343444824,
+            "infer_ms_per_sample": 12.635749319325322,
+            "n_eval": 23,
+            "train_time_sec": 1518.151397228241,
+            "epochs_run": 32,
+            "n_params": 68610,
+            "test_site": "OHSU"
+        },
+        {
+            "auc": 0.8766233766233766,
+            "accuracy": 0.76,
+            "balanced_accuracy": 0.7564935064935066,
+            "f1": 0.7272727272727273,
+            "precision": 0.7272727272727273,
+            "recall": 0.7272727272727273,
+            "specificity": 0.7857142857142857,
+            "threshold": 0.565873384475708,
+            "confusion_matrix": [
+                [
+                    11,
+                    3
+                ],
+                [
+                    3,
+                    8
+                ]
+            ],
+            "infer_time_sec": 0.35918188095092773,
+            "infer_ms_per_sample": 14.36727523803711,
+            "n_eval": 25,
+            "train_time_sec": 1003.7975981235504,
+            "epochs_run": 21,
+            "n_params": 68610,
+            "test_site": "Olin"
+        },
+        {
+            "auc": 0.8241106719367589,
+            "accuracy": 0.6888888888888889,
+            "balanced_accuracy": 0.683794466403162,
+            "f1": 0.75,
+            "precision": 0.6363636363636364,
+            "recall": 0.9130434782608695,
+            "specificity": 0.45454545454545453,
+            "threshold": 0.33350494503974915,
+            "confusion_matrix": [
+                [
+                    10,
+                    12
+                ],
+                [
+                    2,
+                    21
+                ]
+            ],
+            "infer_time_sec": 0.6197841167449951,
+            "infer_ms_per_sample": 13.772980372111002,
+            "n_eval": 45,
+            "train_time_sec": 1269.6622319221497,
+            "epochs_run": 27,
+            "n_params": 68610,
+            "test_site": "Pitt"
+        },
+        {
+            "auc": 0.7857142857142856,
+            "accuracy": 0.7307692307692307,
+            "balanced_accuracy": 0.7380952380952381,
+            "f1": 0.7407407407407408,
+            "precision": 0.6666666666666666,
+            "recall": 0.8333333333333334,
+            "specificity": 0.6428571428571429,
+            "threshold": 0.5186555981636047,
+            "confusion_matrix": [
+                [
+                    9,
+                    5
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "infer_time_sec": 0.35248899459838867,
+            "infer_ms_per_sample": 13.55726902301495,
+            "n_eval": 26,
+            "train_time_sec": 998.7691969871521,
+            "epochs_run": 21,
+            "n_params": 68610,
+            "test_site": "SBL"
+        },
+        {
+            "auc": 0.6666666666666666,
+            "accuracy": 0.6363636363636364,
+            "balanced_accuracy": 0.5892857142857143,
+            "f1": 0.7272727272727272,
+            "precision": 0.6956521739130435,
+            "recall": 0.7619047619047619,
+            "specificity": 0.4166666666666667,
+            "threshold": 0.439310222864151,
+            "confusion_matrix": [
+                [
+                    5,
+                    7
+                ],
+                [
+                    5,
+                    16
+                ]
+            ],
+            "infer_time_sec": 0.41892528533935547,
+            "infer_ms_per_sample": 12.694705616344105,
+            "n_eval": 33,
+            "train_time_sec": 1052.4338562488556,
+            "epochs_run": 22,
+            "n_params": 68610,
+            "test_site": "SDSU"
+        },
+        {
+            "auc": 0.65015479876161,
+            "accuracy": 0.6111111111111112,
+            "balanced_accuracy": 0.6160990712074303,
+            "f1": 0.5882352941176471,
+            "precision": 0.6666666666666666,
+            "recall": 0.5263157894736842,
+            "specificity": 0.7058823529411765,
+            "threshold": 0.3263659179210663,
+            "confusion_matrix": [
+                [
+                    12,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ]
+            ],
+            "infer_time_sec": 0.4751110076904297,
+            "infer_ms_per_sample": 13.197527991400825,
+            "n_eval": 36,
+            "train_time_sec": 1944.8733808994293,
+            "epochs_run": 42,
+            "n_params": 68610,
+            "test_site": "Stanford"
+        },
+        {
+            "auc": 0.7101449275362319,
+            "accuracy": 0.6136363636363636,
+            "balanced_accuracy": 0.6159420289855072,
+            "f1": 0.6046511627906976,
+            "precision": 0.65,
+            "recall": 0.5652173913043478,
+            "specificity": 0.6666666666666666,
+            "threshold": 0.5391896963119507,
+            "confusion_matrix": [
+                [
+                    14,
+                    7
+                ],
+                [
+                    10,
+                    13
+                ]
+            ],
+            "infer_time_sec": 0.6063826084136963,
+            "infer_ms_per_sample": 13.781422918493098,
+            "n_eval": 44,
+            "train_time_sec": 998.550183057785,
+            "epochs_run": 21,
+            "n_params": 68610,
+            "test_site": "Trinity"
+        },
+        {
+            "auc": 0.841880341880342,
+            "accuracy": 0.7466666666666667,
+            "balanced_accuracy": 0.7478632478632479,
+            "f1": 0.7466666666666666,
+            "precision": 0.7777777777777778,
+            "recall": 0.717948717948718,
+            "specificity": 0.7777777777777778,
+            "threshold": 0.6333143711090088,
+            "confusion_matrix": [
+                [
+                    28,
+                    8
+                ],
+                [
+                    11,
+                    28
+                ]
+            ],
+            "infer_time_sec": 0.962409496307373,
+            "infer_ms_per_sample": 12.83212661743164,
+            "n_eval": 75,
+            "train_time_sec": 1056.3828608989716,
+            "epochs_run": 23,
+            "n_params": 68610,
+            "test_site": "UCLA"
+        },
+        {
+            "auc": 0.7634615384615385,
+            "accuracy": 0.6814159292035398,
+            "balanced_accuracy": 0.6658653846153846,
+            "f1": 0.7352941176470589,
+            "precision": 0.704225352112676,
+            "recall": 0.7692307692307693,
+            "specificity": 0.5625,
+            "threshold": 0.5154505968093872,
+            "confusion_matrix": [
+                [
+                    27,
+                    21
+                ],
+                [
+                    15,
+                    50
+                ]
+            ],
+            "infer_time_sec": 1.414778470993042,
+            "infer_ms_per_sample": 12.520163460115416,
+            "n_eval": 113,
+            "train_time_sec": 1085.4618711471558,
+            "epochs_run": 24,
+            "n_params": 68610,
+            "test_site": "UM"
+        },
+        {
+            "auc": 0.8135011441647597,
+            "accuracy": 0.7377049180327869,
+            "balanced_accuracy": 0.7551487414187643,
+            "f1": 0.7037037037037037,
+            "precision": 0.6129032258064516,
+            "recall": 0.8260869565217391,
+            "specificity": 0.6842105263157895,
+            "threshold": 0.39701932668685913,
+            "confusion_matrix": [
+                [
+                    26,
+                    12
+                ],
+                [
+                    4,
+                    19
+                ]
+            ],
+            "infer_time_sec": 0.8295907974243164,
+            "infer_ms_per_sample": 13.599849138103547,
+            "n_eval": 61,
+            "train_time_sec": 1078.3735086917877,
+            "epochs_run": 23,
+            "n_params": 68610,
+            "test_site": "USM"
+        },
+        {
+            "auc": 0.8041958041958042,
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.7342657342657343,
+            "f1": 0.8000000000000002,
+            "precision": 0.7058823529411765,
+            "recall": 0.9230769230769231,
+            "specificity": 0.5454545454545454,
+            "threshold": 0.416169673204422,
+            "confusion_matrix": [
+                [
+                    12,
+                    10
+                ],
+                [
+                    2,
+                    24
+                ]
+            ],
+            "infer_time_sec": 0.6131081581115723,
+            "infer_ms_per_sample": 12.773086627324423,
+            "n_eval": 48,
+            "train_time_sec": 1025.7048451900482,
+            "epochs_run": 22,
+            "n_params": 68610,
+            "test_site": "Yale"
+        }
+    ],
+    "mean": {
+        "auc": 0.7454532306805641,
+        "accuracy": 0.6589955842695865,
+        "balanced_accuracy": 0.6619598889774398,
+        "f1": 0.6728491072488649,
+        "precision": 0.6758639165881974,
+        "recall": 0.6989353329703039,
+        "specificity": 0.624984444984576,
+        "threshold": 0.4751063620342928,
+        "infer_time_sec": 0.6892568784601548,
+        "infer_ms_per_sample": 13.245699462809707,
+        "n_eval": 52.0,
+        "train_time_sec": 1390.349363859962,
+        "epochs_run": 29.823529411764707,
+        "n_params": 68610.0
+    },
+    "std": {
+        "auc": 0.08959435566296586,
+        "accuracy": 0.0885481853795272,
+        "balanced_accuracy": 0.08422044188804353,
+        "f1": 0.10103052054955614,
+        "precision": 0.11074104836903212,
+        "recall": 0.16274815629309072,
+        "specificity": 0.15794139690420658,
+        "threshold": 0.19654964628813323,
+        "infer_time_sec": 0.4924169579776597,
+        "infer_ms_per_sample": 0.6554357060067648,
+        "n_eval": 37.782660199682944,
+        "train_time_sec": 569.8841826402507,
+        "epochs_run": 12.391815582294852,
+        "n_params": 0.0
+    },
+    "mean_confusion_matrix": [
+        [
+            15.411764705882353,
+            8.588235294117647
+        ],
+        [
+            8.352941176470589,
+            19.647058823529413
+        ]
+    ]
+}

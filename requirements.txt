@@ -1,0 +1,21 @@
+# Core ML
+torch>=2.0
+torch-geometric>=2.4
+
+# Scientific computing
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+
+# Visualization
+matplotlib>=3.7
+
+# FC matrix generation (only needed for generate_fc_all_v1.py / v2.py)
+nibabel>=5.0
+nilearn>=0.10
+tqdm>=4.60
+
+# Note: torch-geometric has its own installation steps —
+# see https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# Install PyTorch first, then install torch-geometric matching your CUDA/CPU version.
