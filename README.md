@@ -1,7 +1,8 @@
 # Multi-Atlas GCN for Autism Classification from Resting-State fMRI
 
 **Paper:** *A Multi Atlas Evaluation of Functional Connectivity Based Graph Neural Networks for Autism Classification*
-**Journal**: To be Added
+
+**Journal:** To be Added
 
 ---
 
