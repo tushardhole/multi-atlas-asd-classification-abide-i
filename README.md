@@ -1,7 +1,7 @@
 # Multi-Atlas GCN for Autism Classification from Resting-State fMRI
 
 **Paper:** *A Multi Atlas Evaluation of Functional Connectivity Based Graph Neural Networks for Autism Classification*
-**Journal:** Journal of Big Data and AI (JBDAI)
+**Journal**: To be Added
 
 ---
 
@@ -315,17 +315,7 @@ All figures are saved in `figures/` in both PNG (300 dpi) and PDF formats.
 
 ## 9. Citation
 
-If you use this code, please cite:
-
-```bibtex
-@article{dhole2026multiatlas,
-  title   = {A Multi Atlas Evaluation of Functional Connectivity Based Graph
-             Neural Networks for Autism Classification},
-  author  = {Dhole, Tushar},
-  journal = {Journal of Big Data and AI (JBDAI)},
-  year    = {2026},
-}
-```
+To be added
 
 ---
 
